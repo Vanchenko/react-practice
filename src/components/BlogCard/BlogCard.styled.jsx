@@ -11,7 +11,7 @@ export const Card = styled.div`
 
   box-shadow: ${props => props.theme.shadows.regular};
   border-radius: ${props => props.theme.spacing(4)};
-  background: ${props => props.theme.colors.white};
+  background: ${props => props.backgroundColor};
 `;
 
 export const CardHeader = styled.div`
