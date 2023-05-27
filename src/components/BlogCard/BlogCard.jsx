@@ -25,7 +25,7 @@ export const BlogCard = ({
   description,
 }) => {
   return (
-    <Card backgroundColor='red'>
+    <Card>
       <CardHeader>
         <CardPoster src={poster} alt="card__image" />
       </CardHeader>
