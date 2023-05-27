@@ -11,7 +11,7 @@ import articles from "data/article.json";
 import data from 'data/data.json';
 import forbes from "data/forbes.json";
 import transactions from "data/transactions.json";
-
+console.log('Test')
 export const App = () => {
   return (
     <Section>
